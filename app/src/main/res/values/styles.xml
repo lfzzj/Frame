@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--都可以设置状态栏的颜色，statusBarColor在5.0以下会出来警告，statusBarColor优先级更高-->
+        <!--<item name="colorPrimaryDark">@color/module_user_mainColor</item>-->
+        <!--<item name="android:statusBarColor">@color/common_bg_color</item>-->
+
+        <!--自定义系统Divider-->
+        <!-- <item name="android:listDivider">@drawable/divider_item</item>-->
+
+        <item name="android:activityOpenEnterAnimation">@anim/app_anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/app_anim_exit</item>
+
+        <item name="android:activityCloseEnterAnimation">@anim/app_back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/app_back_exit</item>
+    </style>
+
+
+    <style name="app_home_bottom">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/app_selecter_tab_main_text_color</item>
+        <item name="android:button">@null</item>
+
+    </style>
+
+
+
+
+</resources>

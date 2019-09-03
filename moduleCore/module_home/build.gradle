@@ -1,0 +1,31 @@
+apply from: config
+apply plugin: 'com.jakewharton.butterknife'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation appcompatV7
+
+    implementation constraintLayout
+
+    implementation banner
+
+    implementation glide
+
+    implementation cardview
+
+    implementation butterknife
+    annotationProcessor butterknifeCompiler
+
+    implementation arouterApi
+    annotationProcessor arouterCompiler
+
+    implementation design
+    implementation rvadapter
+
+    implementation BaseRecyclerViewAdapterHelper
+
+    api project(":modulePublic:common")
+
+
+}

@@ -1,0 +1,26 @@
+apply from: config
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation appcompatV7
+
+    implementation arouterApi
+    annotationProcessor arouterCompiler
+
+    implementation butterknife
+    annotationProcessor butterknifeCompiler
+
+    api orhanobutLogger
+
+    api autosize
+
+    api gson
+    api design
+
+    api utilcode
+
+    api project(":moduleSystem:greenDao")
+
+    api project(":moduleSystem:requestframe")
+}

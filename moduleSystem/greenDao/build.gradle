@@ -1,0 +1,11 @@
+apply from: config
+apply plugin: 'org.greenrobot.greendao'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'org.greenrobot:greendao:3.2.2' // add library
+    implementation 'org.greenrobot:greendao-generator:3.2.2'
+
+    implementation appcompatV7
+}

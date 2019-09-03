@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardCornerRadius="20dp"
+   android:layout_margin="5dp"
+    android:elevation="10dp"
+    tools:ignore="MissingConstraints">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_face"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/common_face"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintStart_toEndOf="@+id/iv_1" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/common_face"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintLeft_toRightOf="@+id/iv_1"
+            app:layout_constraintStart_toEndOf="@+id/iv_1"
+            app:layout_constraintTop_toBottomOf="@+id/iv_2"
+            app:layout_constraintWidth_percent="0.3" />
+
+        <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/common_face"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintLeft_toRightOf="@+id/iv_3"
+            app:layout_constraintTop_toBottomOf="@+id/iv_2"
+            app:layout_constraintWidth_percent="0.3" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

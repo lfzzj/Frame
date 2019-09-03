@@ -1,0 +1,18 @@
+apply from: config
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation appcompatV7
+
+    implementation orhanobutLogger
+
+    implementation retrofit
+    implementation rxandroid
+    implementation rxjava
+    implementation converterGson
+    implementation retrofit2Rxjava2
+
+    implementation utilcode
+
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/common_gray"/>
+    <!--logo图片-->
+    <item
+        android:gravity="center_horizontal"
+        android:top="86dp">
+        <bitmap
+            android:gravity="top"
+            android:src="@mipmap/ic_launcher"
+            />
+    </item>
+
+    <!--&lt;!&ndash;logo下的文字图片&ndash;&gt;-->
+    <!--<item-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:top="330dp">-->
+        <!--<bitmap-->
+            <!--android:gravity="top"-->
+            <!--android:src="@mipmap/splash_center_image"/>-->
+    <!--</item>-->
+    <!--&lt;!&ndash;闪屏底部文字图片&ndash;&gt;-->
+    <!--<item-->
+        <!--android:gravity="center_horizontal|bottom"-->
+        <!--android:bottom="23dp">-->
+        <!--<bitmap-->
+            <!--android:gravity="bottom"-->
+            <!--android:src="@mipmap/splash_botton_copyright"/>-->
+    <!--</item>-->
+</layer-list>

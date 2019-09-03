@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/common_bg_color"
+    android:gravity="center"
+    android:id="@+id/rg_tab"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rb_home"
+        style="@style/app_home_bottom"
+        android:drawableTop="@drawable/app_selecter_tab_home"
+        android:checked="true"
+        android:text="@string/app_main_home" />
+    <RadioButton
+        android:id="@+id/rb_sort"
+        style="@style/app_home_bottom"
+        android:drawableTop="@drawable/app_selecter_tab_frd"
+        android:text="@string/app_main_soft" />
+    <RadioButton
+        android:id="@+id/rb_cart"
+        style="@style/app_home_bottom"
+        android:drawableTop="@drawable/app_selecter_tab_find"
+        android:text="@string/app_main_cart" />
+    <RadioButton
+        android:id="@+id/rb_mine"
+        style="@style/app_home_bottom"
+        android:drawableTop="@drawable/app_selecter_tab_user"
+        android:text="@string/app_main_mine" />
+
+</RadioGroup>

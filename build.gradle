@@ -1,0 +1,51 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    ext {
+        versions = "${rootDir}/version.gradle"
+        config = "${rootDir}/config.gradle"
+
+        is_debug = isDebug.toBoolean()    //组件化每个模块是否可以独立编译
+    }
+
+
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+
+
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+        classpath "io.realm:realm-gradle-plugin:5.9.1"
+
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.0.0'
+
+        classpath 'org.aspectj:aspectjtools:1.8.10'
+        classpath 'org.aspectj:aspectjweaver:1.8.10'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

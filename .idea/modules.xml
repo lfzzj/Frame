@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Frame.iml" filepath="$PROJECT_DIR$/Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleSystem/base/base.iml" filepath="$PROJECT_DIR$/moduleSystem/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulePublic/common/common.iml" filepath="$PROJECT_DIR$/modulePublic/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleSystem/greenDao/greenDao.iml" filepath="$PROJECT_DIR$/moduleSystem/greenDao/greenDao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleCore/moduleCore.iml" filepath="$PROJECT_DIR$/moduleCore/moduleCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulePublic/modulePublic.iml" filepath="$PROJECT_DIR$/modulePublic/modulePublic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleSystem/moduleSystem.iml" filepath="$PROJECT_DIR$/moduleSystem/moduleSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleCore/module_cart/module_cart.iml" filepath="$PROJECT_DIR$/moduleCore/module_cart/module_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleCore/module_home/module_home.iml" filepath="$PROJECT_DIR$/moduleCore/module_home/module_home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleCore/module_mine/module_mine.iml" filepath="$PROJECT_DIR$/moduleCore/module_mine/module_mine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleCore/module_sort/module_sort.iml" filepath="$PROJECT_DIR$/moduleCore/module_sort/module_sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleSystem/netFramework/netFramework.iml" filepath="$PROJECT_DIR$/moduleSystem/netFramework/netFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-Frame.iml" filepath="$PROJECT_DIR$/project-Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleSystem/requestframe/requestframe.iml" filepath="$PROJECT_DIR$/moduleSystem/requestframe/requestframe.iml" />
+    </modules>
+  </component>
+</project>
